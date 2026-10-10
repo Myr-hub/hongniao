@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {gamesForMode} from './catalog.mjs';
+const data=[{id:'a',name:'甲',modes:['room','coin']},{id:'b',name:'乙',modes:['room']}];
+assert.deepEqual(gamesForMode(data,'coin').map(x=>x.id),['a']);
+assert.deepEqual(gamesForMode(data,'room').map(x=>x.id),['a','b']);
+assert.throws(()=>gamesForMode(data,'unknown'));
+assert.deepEqual(gamesForMode([],'room'),[]);
+const result=gamesForMode(data,'room');
+result[0].name='修改';
+assert.equal(data[0].name,'甲');
+assert.deepEqual(Object.keys(result[0]),['id','name']);
+console.log('6项断言通过');

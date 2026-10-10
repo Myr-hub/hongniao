@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
+<rect width="1000" height="340" rx="20" fill="#f4f7fc"/>
+<g font-family="Microsoft YaHei, sans-serif"><text x="42" y="52" font-size="27" fill="#172d48">共用资料，按模式生成目录</text><text x="42" y="82" font-size="15" fill="#567">原创教学示意 · 不代表原项目架构</text>
+<rect x="42" y="132" width="215" height="120" rx="14" fill="#173959"/><text x="68" y="173" font-size="23" fill="white">游戏资料</text><text x="68" y="208" font-size="19" fill="#cde">id · name · modes</text>
+<path d="M257 192H340" stroke="#567" stroke-width="3"/><path d="M330 183l12 9-12 9" fill="none" stroke="#567" stroke-width="3"/>
+<rect x="345" y="132" width="250" height="120" rx="14" fill="#197e82"/><text x="374" y="173" font-size="23" fill="white">筛选模式</text><text x="374" y="208" font-size="19" fill="#dff">room / coin</text>
+<path d="M595 192H678" stroke="#567" stroke-width="3"/><path d="M668 183l12 9-12 9" fill="none" stroke="#567" stroke-width="3"/>
+<rect x="685" y="132" width="265" height="120" rx="14" fill="#e8ac43"/><text x="712" y="173" font-size="23" fill="#24313b">展示目录</text><text x="712" y="208" font-size="19" fill="#24313b">仅返回 id 与 name</text>
+<text x="42" y="301" font-size="17" fill="#567">服务端独立检查开放状态与权限，前端筛选只负责展示。</text></g></svg>
